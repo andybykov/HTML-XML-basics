@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title> Test Form </title>
+</head>
+
+<body>
+    <p>Основные элементы форм:</p>
+
+    <form action="ex7.html" method="POST" enctype="multipart/form-data">
+        <!-- однострочные текствоые поля-->
+        Простое текстовое поле: <input type="text" name="txtField" /><br />
+        <!--Поле длинной максимум 5 символов: <input type="text" name="txtField" maxlength=“5” /><br />-->
+        <!-- поле для ввода пароля -->
+        Поле для ввода пароля:<input type="password" name="psw" /><br />
+        <!-- Многострочное текстовое поле-->
+        Многострочное текстовое поле:<br />
+        <textarea name="txtArea">This is a text area</textarea><br />
+        <!-- скрытое поле -->
+        Скрытое поле: <input type="hidden" name="hdnTxt"></br>
+        <input type="submit" name="submit" value="Отправить!" />
+    </form>
+
+</body>
+
+</html>
